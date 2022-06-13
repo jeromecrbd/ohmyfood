@@ -1,0 +1,139 @@
+/*accueil*/
+body {
+    width: auto;
+}
+
+.ohmyfood {
+    width: 30%;
+}
+
+.retour {
+    font-size: 2rem;
+}
+
+.locate {
+    font-size: 1.8rem;
+    padding-block-start: 1%;
+    padding-block-end: 1%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.btnExplorer {
+    width: 20%;
+    font-size: 1.4rem;
+}
+
+.explore {
+    padding-block-end: 2%;
+}
+
+.choix {
+    width: 20%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    margin-left: 110px;
+}
+
+.fonction {
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.numero {
+    display: none;
+}
+
+span {
+    font-size: 1.4rem;
+}
+
+.restaurant {
+    padding-block-start: 1%;
+}
+
+.element {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partie1 {
+    width: 23%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+img.foot {
+    width: 30%;
+}
+
+.fin {
+    margin-block-end: 4%;
+}
+
+/* fin accueil*/
+.rst {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 3rem;
+    height: 22rem;
+}
+
+.Menu1,
+.Menu2,
+.Menu3,
+.Menu4 {
+    position: initial;
+    border-radius: 0 0;
+    background-color: #fff;
+}
+
+.entree,
+.repas,
+.dessert {
+    background-color: #eddfdf;
+    padding-bottom: 2%;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.heart {
+    padding-top: 0%;
+}
+
+h4 {
+    border-bottom: 2px solid #c931c9;
+    font-size: 1.5rem;
+    width: 95%;
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.plat {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.btnCommander {
+    width: 20%;
+    font-size: 1.4rem;
+    margin-left: 40%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.page {
+    position: initial;
+}
