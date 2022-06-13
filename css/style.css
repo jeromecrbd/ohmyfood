@@ -160,9 +160,12 @@ footer {
     margin-block-end: 15%;
     padding-bottom: 5%;
 }
-
+.fin h1 {
+    color: #fff;
+}
 .fin h3 {
     color: #fff;
+    margin-left: 4%;
 }
 
 img.foot {
