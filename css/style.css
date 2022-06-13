@@ -212,6 +212,7 @@ img.foot {
 
 h1 {
     font-family: "Shrikhand", cursive;
+    font-weight: bold;
 }
 
 h1,
@@ -224,6 +225,7 @@ h3,
 h4,
 p {
     font-family: "Roboto";
+    font-weight: bold;
 }
 
 h4 {
