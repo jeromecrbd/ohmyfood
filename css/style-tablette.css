@@ -32,9 +32,15 @@ body {
     margin-bottom: 2%;
     margin-left: 10px;
 }
+.logo{
+    padding-top: 9%;
+    font-size: 16px;
+}
 
 .numero {
-    display: none;
+    position: relative;
+    left: 3%;
+    margin-top: 0;
 }
 
 span {
