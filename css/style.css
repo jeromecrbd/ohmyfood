@@ -262,7 +262,7 @@ h4 {
 }
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid red;
+    border-top: 16px solid #8a2be2;
     border-radius: 50%;
     width: 80px;
     height: 80px;
