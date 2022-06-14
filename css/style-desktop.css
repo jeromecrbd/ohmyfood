@@ -75,6 +75,18 @@ img.foot {
     width: 30%;
 }
 
+.couvert {
+    padding-right: 1.5%;
+}
+
+.main {
+    padding-right: 1%;
+}
+
+.fin h3 {
+    margin-left: 3%;
+}
+
 .fin {
     margin-block-end: 4%;
 }
