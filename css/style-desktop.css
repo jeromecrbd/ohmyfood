@@ -151,3 +151,9 @@ h4 {
 .page {
     position: initial;
 }
+.loader{
+    width: 400px;
+    height: 400px;
+    left: 40%;
+    top: 30%;
+}

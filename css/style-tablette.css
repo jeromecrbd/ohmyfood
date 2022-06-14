@@ -142,3 +142,10 @@ h4 {
 .page {
     position: initial;
 }
+
+.loader{
+    width: 250px;
+    height: 250px;
+    left: 40%;
+    top: 35%;
+}

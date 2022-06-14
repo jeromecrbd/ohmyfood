@@ -237,8 +237,8 @@ h4 {
 
 .heart {
     float: right;
-    padding-right: 6%;
-    padding-top: 3%;
+    padding-right: 12%;
+    padding-top: 1%;
     font-size: 24px;
 }
 
@@ -285,11 +285,11 @@ h4 {
     /* Light grey */
     border-top: 16px solid #8a2be2;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     animation: spin 3s linear;
     position: absolute;
-    left: 50%;
+    left: 35%;
     top: 50%;
     z-index: 1;
     margin: -76px 0 0 -54px;
