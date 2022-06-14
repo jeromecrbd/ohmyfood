@@ -211,7 +211,7 @@ img.foot {
 }
 
 h1 {
-    font-family: "Shrikhand", cursive;
+    font-family: 'Shrikhand', cursive;
     font-weight: bold;
 }
 
@@ -220,11 +220,12 @@ h4 {
     margin-left: 3%;
 }
 
+span,
 h2,
 h3,
 h4,
 p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
