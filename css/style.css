@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 a {
     color: #000000;
 }
@@ -14,14 +19,14 @@ a:link {
 .ohmyfood {
     width: 50%;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 .locate {
     background-color: #f3f3f3;
-    padding-block-start: 1rem;
-    padding-block-end: 1rem;
+    padding: 1.25rem 1rem;
+    text-align: center;
     justify-content: center;
     font-size: 1.2rem;
     font-weight: bold;
@@ -31,25 +36,33 @@ a:link {
     margin-right: 1rem;
 }
 
-p {
-    font-size: 20px;
-}
 
 .explore {
-    padding-block-end: 10%;
+    padding: 2rem;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #fafafa;
+}
+
+.titre {
+    margin: 0;
+}
+
+.sous-titre {
+    margin: 1.5rem 0;
 }
 
 .btnExplorer {
     border: none;
-    border-radius: 50px;
-    width: 60%;
+    border-radius: 100px;
+    width: 80%;
     height: 50px;
-    background-color: #c931c9;
+    font-size: 1.1rem;
     color: #fff;
-    font-size: 16px;
-    margin-top: 10%;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
+    cursor: pointer;
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px #000000(0 0 0 / 25%);
 }
 
 h2 {
@@ -58,12 +71,12 @@ h2 {
 
 .fonction {
     margin-left: 8%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .numero {
     position: absolute;
-    left: 7%;
+    left: 5%;
     border-radius: 50%;
     width: 16px;
     height: 16px;
@@ -76,12 +89,12 @@ h2 {
 
 .choix {
     display: flex;
-    margin-bottom: 10%;
-    border-radius: 25px;
+    margin-bottom: 0.7rem;
+    border-radius: 20px;
     background-color: #f2f2f2;
     width: 85%;
-    height: 60px;
-    padding-left: 10%;
+    height: 3.8rem;
+    padding-left: 8%;
 }
 
 .choix:hover {
@@ -119,7 +132,7 @@ span {
 }
 
 .restaurant {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     padding-block-start: 5%;
     padding-block-end: 5%;
 }
@@ -127,11 +140,9 @@ span {
 .partie1 {
     border-radius: 15px;
     box-shadow: 3px 5px 0px 0px #e4e2e2;
-    width: 92%;
+    width: 95%;
     background-color: #fff;
-    margin-left: 4%;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    margin: 2%;
 }
 
 .resto {
@@ -142,9 +153,9 @@ span {
 }
 
 .nom {
-    line-height: 5px;
+    line-height: 8px;
     padding-bottom: 2%;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 
 .coeur {
@@ -192,8 +203,9 @@ img.foot {
 }
 
 .retour {
-    padding: 50%;
     margin-inline-start: 100%;
+    padding-top: 2.4rem;
+    padding-left: 1rem;
 }
 
 .rst {
@@ -206,11 +218,18 @@ img.foot {
 .Menu2,
 .Menu3,
 .Menu4 {
-    background-color: #e6e6fa;
+    background-color: #f6f6f6;
     padding-top: 1%;
     border-radius: 50px 50px 0 0;
     position: relative;
     bottom: 60px;
+}
+
+.en-tete {
+    padding: 0 2rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
@@ -223,43 +242,31 @@ h4 {
     margin-left: 3%;
 }
 
-span,
-h2,
-h3,
-h4,
+
 p {
-    font-family: 'Roboto', sans-serif;
-}
-p{
     font-size: 16px;
 }
 
 h4 {
-    border-bottom: 2px solid #008000;
+    border-bottom: 3px solid #008000;
     padding-bottom: 1%;
     width: 12%;
-}
-
-.heart {
-    float: right;
-    padding-right: 12%;
-    padding-top: 1%;
-    font-size: 24px;
 }
 
 .menu {
     border-radius: 15px;
     background-color: #fff;
-    padding-left: 2%;
-    line-height: 26px;
-    padding-bottom: 1%;
+    line-height: 0.5rem;
+    padding: 0.5rem;
     margin-right: 2%;
     margin-left: 2%;
 }
 
 .prix {
-    float: right;
-    padding-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
     font-weight: bold;
 }
 
@@ -269,15 +276,18 @@ h4 {
 
 .btnCommander {
     border: none;
-    border-radius: 50px;
-    width: 60%;
-    height: 50px;
-    background-color: #c931c9;
+    border-radius: 100px;
+    width: 50%;
+    height: 3rem;
+    margin: 6rem;
+    margin-top: 3rem;
+    font-size: 1.1rem;
     color: #fff;
-    font-size: 16px;
-    margin-left: 20%;
-    margin-bottom: 20%;
-    margin-top: 10%;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
+    cursor: pointer;
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px #000000(0 0 0 / 25%);
 }
 
 .page {
