@@ -206,6 +206,7 @@ img.foot {
     margin-inline-start: 100%;
     padding-top: 2.4rem;
     padding-left: 1rem;
+    font-size: larger;
 }
 
 .rst {
@@ -249,27 +250,52 @@ h4 {
     margin-left: 3%;
 }
 
-
-p {
-    font-size: 16px;
-}
-
 h4 {
     border-bottom: 3px solid #008000;
     padding-bottom: 1%;
     width: 12%;
 }
 
-.menu {
-    border-radius: 15px;
-    background-color: #fff;
-    line-height: 0.5rem;
-    padding: 0.5rem;
-    margin-right: 2%;
-    margin-left: 2%;
+.entree,
+.repas,
+.dessert {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1rem;
 }
 
-.prix {
+.objet_article {
+    margin: 0;
+}
+
+.objet_menu {
+    background-color: #fff;
+    padding: 0.2rem;
+    display: flex;
+    border-radius: 0.75rem;
+    margin: 1rem 0;
+    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.objet_platdescription {
+    flex: 1;
+}
+
+.objet_plat {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.objet_plat,
+.objet_description {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.objet_prix {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -277,14 +303,33 @@ h4 {
     font-weight: bold;
 }
 
-.plat {
-    font-size: 1.1rem;
-    font-weight: bold;
+.objet_confirmation {
+    background-color: #99e2d0;
+    margin: -1rem -5rem -1rem 1rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
 }
 
-.description .prix{
+.objet_icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(180deg);
+    transition-duration: .5s;
 }
+
+.objet_check {
+    color: #99e2d0;
+}
+
+
 .btnCommander {
     border: none;
     border-radius: 100px;
