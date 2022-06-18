@@ -226,11 +226,18 @@ img.foot {
 }
 
 .en-tete {
-    padding: 0 2rem 0 0;
+    padding: 1rem 2rem 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Shrikhand', cursive;
+    font-weight: bold;
 }
+
+.heart {
+    font-size: 1.6rem;
+}
+
 
 h1 {
     font-family: 'Shrikhand', cursive;
@@ -271,9 +278,13 @@ h4 {
 }
 
 .plat {
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
+.description .prix{
+    align-items: center;
+}
 .btnCommander {
     border: none;
     border-radius: 100px;
