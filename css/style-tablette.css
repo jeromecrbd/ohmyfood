@@ -59,9 +59,10 @@ span {
     margin-bottom: 2%;
 }
 
-h2 {
+.famille {
     text-align: center;
     font-size: 2rem;
+    margin-left: 0;
 }
 
 .restaurant {
@@ -99,7 +100,9 @@ h2 {
     border-radius: 0 0;
     background-color: #fff;
 }
-
+.appelation{
+    font-size: 1.8rem;
+}
 .entree,
 .repas,
 .dessert {

@@ -61,7 +61,7 @@ a:link {
     cursor: pointer;
 }
 
-h2 {
+.famille {
     margin-left: 1.5rem;
 }
 
@@ -227,14 +227,16 @@ img.foot {
 }
 
 .en-tete {
-    padding: 1rem 2rem 0 0;
+    padding: 1rem 2rem 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Shrikhand', cursive;
     font-weight: bold;
 }
-
+.appelation{
+    font-size: 1.5rem;
+}
 .heart {
     font-size: 1.6rem;
 }
