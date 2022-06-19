@@ -29,13 +29,12 @@ a:link {
     text-align: center;
     justify-content: center;
     font-size: 1.2rem;
+}
+
+.position {
+    margin-left: 1rem;
     font-weight: bold;
 }
-
-.mark {
-    margin-right: 1rem;
-}
-
 
 .explore {
     padding: 2rem;
@@ -58,15 +57,12 @@ a:link {
     height: 50px;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #686868;
     background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
     cursor: pointer;
-    transition-duration: .25s;
-    box-shadow: 0.25rem 0.25rem 10px #000000(0 0 0 / 25%);
 }
 
 h2 {
-    margin-left: 4%;
+    margin-left: 1.5rem;
 }
 
 .fonction {
@@ -78,11 +74,11 @@ h2 {
     position: absolute;
     left: 5%;
     border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    padding: 4px;
-    margin-top: 18px;
-    background-color: #8a2be2;
+    width: 1.1rem;
+    height: 1.1rem;
+    padding: 0.3rem;
+    margin-top: 1.1rem;
+    background-color: #9356dc;
     text-align: center;
     color: #fff;
 }
@@ -101,6 +97,12 @@ h2 {
     background-color: #eae4f3;
 }
 
+.btnchoix {
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
 .logo:hover {
     color: #8a2be2;
 }
@@ -109,11 +111,6 @@ h2 {
     color: #908686;
     padding-top: 7%;
     font-size: 18px;
-}
-
-span {
-    color: #000000;
-    margin-left: 30px;
 }
 
 .conteneur {
@@ -199,6 +196,8 @@ img.foot {
 /* fin accueil */
 .block1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 4%;
 }
 
@@ -219,6 +218,7 @@ img.foot {
 .Menu2,
 .Menu3,
 .Menu4 {
+    display: grid;
     background-color: #f6f6f6;
     padding-top: 1%;
     border-radius: 50px 50px 0 0;
@@ -250,18 +250,18 @@ h4 {
     margin-left: 3%;
 }
 
-h4 {
-    border-bottom: 3px solid #008000;
-    padding-bottom: 1%;
-    width: 12%;
-}
-
 .entree,
 .repas,
 .dessert {
     max-width: 100%;
     overflow: hidden;
     padding: 0 1rem;
+}
+
+.objet {
+    border-bottom: 3px solid #99e2d0;
+    padding-bottom: 1%;
+    width: 12%;
 }
 
 .objet_article {
@@ -274,7 +274,6 @@ h4 {
     display: flex;
     border-radius: 0.75rem;
     margin: 1rem 0;
-    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
     overflow: hidden;
     cursor: pointer;
 }
@@ -286,6 +285,10 @@ h4 {
 .objet_plat {
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+.objet_description {
+    padding-left: 0.5rem;
 }
 
 .objet_plat,
@@ -300,6 +303,7 @@ h4 {
     justify-content: flex-end;
     align-items: flex-end;
     padding-left: 0.5rem;
+    padding-bottom: 0.9rem;
     font-weight: bold;
 }
 
@@ -310,7 +314,6 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-duration: .5s;
 }
 
 .objet_icon {
@@ -321,14 +324,11 @@ h4 {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(180deg);
-    transition-duration: .5s;
 }
 
 .objet_check {
     color: #99e2d0;
 }
-
 
 .btnCommander {
     border: none;
@@ -339,11 +339,8 @@ h4 {
     margin-top: 3rem;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #686868;
     background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
     cursor: pointer;
-    transition-duration: .25s;
-    box-shadow: 0.25rem 0.25rem 10px #000000(0 0 0 / 25%);
 }
 
 .page {
@@ -403,27 +400,18 @@ h4 {
 }
 
 .entree {
-    animation: fadein 3s;
-    -moz-animation: fadein 3s;
-    /* Firefox */
-    -webkit-animation: fadein 3s;
-    /* Safari et Chrome */
-    -o-animation: fadein 3s;
-    /* Opera */
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
 }
 
 .repas {
-    animation: fadein 6s;
-    -moz-animation: fadein 6s;
-    -webkit-animation: fadein 6s;
-    -o-animation: fadein 6s;
+    animation: fadein 10s;
+    -webkit-animation: fadein 10s;
 }
 
 .dessert {
-    animation: fadein 9s;
-    -moz-animation: fadein 9s;
-    -webkit-animation: fadein 9s;
-    -o-animation: fadein 9s;
+    animation: fadein 13s;
+    -webkit-animation: fadein 13s;
 }
 
 @keyframes fadein {
@@ -436,33 +424,7 @@ h4 {
     }
 }
 
-@-moz-keyframes fadein {
-
-    /* sur Firefox */
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 @-webkit-keyframes fadein {
-
-    /* sur Safari et Chrome */
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadein {
-
-    /* sur Opera */
     from {
         opacity: 0;
     }

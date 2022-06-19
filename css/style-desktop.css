@@ -39,6 +39,11 @@ h2 {
     margin-left: 10px;
 }
 
+.btnchoix {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
 .logo {
     padding-top: 9%;
     font-size: 1.6em;
@@ -46,8 +51,8 @@ h2 {
 
 .numero {
     left: 37%;
-    margin-top: 30px;
-    padding: 12px;
+    margin-top: 1.6rem;
+    padding: 0.8rem;
 }
 
 .fonction {
@@ -116,28 +121,30 @@ img.foot {
     background-color: #eddfdf;
     padding-bottom: 2%;
     border-radius: 50px;
+    margin-bottom: 2%;
 }
 
 h1 {
     font-size: 2rem;
 }
 
-.heart {
-    padding-top: 0%;
+.en-tete {
+    justify-content: space-around;
 }
 
-h4 {
+.objet {
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 3px solid #c931c9;
+    width: 100%;
+}
+
+.objet_plat {
     border-bottom: 2px solid #c931c9;
     font-size: 1.5rem;
     width: 95%;
-    padding-top: 2%;
     text-align: center;
     padding-bottom: 2%;
-}
-
-.plat {
-    text-align: center;
-    font-size: 1.4rem;
 }
 
 .btnCommander {
@@ -151,7 +158,8 @@ h4 {
 .page {
     position: initial;
 }
-.loader{
+
+.loader {
     width: 400px;
     height: 400px;
     left: 40%;
