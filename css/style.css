@@ -17,7 +17,7 @@ a:link {
     color: #8725e1;
 }
 
-.ohmyfood {
+.food {
     width: 50%;
     display: block;
     margin: auto;
@@ -175,10 +175,6 @@ footer {
     padding-bottom: 5%;
 }
 
-.fin h1 {
-    color: #fff;
-}
-
 .fin h3 {
     color: #fff;
     margin-left: 4%;
@@ -201,13 +197,14 @@ img.foot {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 4%;
+    margin: 1rem;
+}
+.ohmyfood{
+    width: 50%;
+    margin: 1rem auto;
 }
 
 .retour {
-    margin-inline-start: 100%;
-    padding-top: 2.4rem;
-    padding-left: 1rem;
     font-size: larger;
 }
 
@@ -221,14 +218,15 @@ img.foot {
 .Menu2,
 .Menu3,
 .Menu4 {
-    display: grid;
     background-color: #f6f6f6;
     padding-top: 1%;
     border-radius: 50px 50px 0 0;
     position: relative;
     bottom: 60px;
 }
-
+.sous_menu{
+    display: grid;
+}
 .en-tete {
     padding: 1rem 2rem 0 1rem;
     display: flex;
@@ -248,10 +246,7 @@ img.foot {
 h1 {
     font-family: 'Shrikhand', cursive;
     font-weight: bold;
-}
-
-h1,
-h4 {
+    color: #fff;
     margin-left: 3%;
 }
 
@@ -263,16 +258,17 @@ h4 {
     padding: 0 1rem;
 }
 
-.objet {
-    border-bottom: 3px solid #99e2d0;
+.sousmenu {
+    text-transform: uppercase;
+    border-bottom: 4px solid #99e2d0;
     padding-bottom: 1%;
-    width: 12%;
+    width: 3rem;
 }
 
 .objet_article {
     margin: 0;
 }
-
+/*
 .objet_menu {
     background-color: #fff;
     padding: 0.2rem;
@@ -282,7 +278,22 @@ h4 {
     overflow: hidden;
     cursor: pointer;
 }
-
+*/
+.objet{
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    border-radius: 0.75rem;
+    margin: 1rem 0;
+    box-shadow: .25rem .25rem 1remrgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+    animation: itemAppear .6s;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+    animation-fill-mode: both;
+    transform: scale(0);
+    max-width: 100%;
+}
 .objet_platdescription {
     flex: 1;
 }
@@ -290,14 +301,14 @@ h4 {
 .objet_plat {
     font-size: 1.1rem;
     font-weight: bold;
+    padding-left: 0.5rem;
 }
 
 .objet_description {
     padding-left: 0.5rem;
 }
-
-.objet_plat,
-.objet_description {
+.objet_platdescription,
+.objet_plat {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;

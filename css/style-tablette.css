@@ -3,13 +3,12 @@ body {
     width: auto;
 }
 
-.ohmyfood {
+.food, .ohmyfood{
     width: 40%;
 }
 
 .retour {
     font-size: 2rem;
-    padding-top: 3rem;
 }
 
 .locate {
@@ -103,7 +102,7 @@ span {
 .repas,
 .dessert {
     display: block;
-    background-color: #eddfdf;
+    background-color: #f6f6f6;
     padding-bottom: 2%;
     margin-bottom: 4%;
 }
@@ -112,7 +111,7 @@ h1 {
     font-size: 2rem;
 }
 
-.objet {
+.sousmenu {
     text-align: center;
     font-size: 1.5rem;
     border-bottom: 3px solid #c931c9;
@@ -120,11 +119,9 @@ h1 {
 }
 
 .objet_plat {
-    border-bottom: 2px solid #c931c9;
+    border-bottom: none;
     font-size: 1.5rem;
-    width: 95%;
     text-align: center;
-    padding-bottom: 2%;
 }
 
 .btnCommander {

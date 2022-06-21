@@ -3,7 +3,7 @@ body {
     width: auto;
 }
 
-.ohmyfood {
+.food, .ohmyfood {
     width: 30%;
 }
 
@@ -93,6 +93,9 @@ img.foot {
 }
 
 /* fin accueil*/
+.block1{
+    margin: 1rem 6rem;
+}
 .rst {
     display: block;
     margin: auto;
@@ -113,7 +116,7 @@ img.foot {
 .entree,
 .repas,
 .dessert {
-    background-color: #eddfdf;
+    background-color: #f6f6f6;
     padding-bottom: 2%;
     border-radius: 50px;
     margin-bottom: 2%;
@@ -129,7 +132,7 @@ h1 {
 .appelation{
     font-size: 1.8rem;
 }
-.objet {
+.sousmenu {
     text-align: center;
     font-size: 1.5rem;
     border-bottom: 3px solid #c931c9;
@@ -137,11 +140,9 @@ h1 {
 }
 
 .objet_plat {
-    border-bottom: 2px solid #c931c9;
+    border-bottom: none;
     font-size: 1.5rem;
-    width: 95%;
     text-align: center;
-    padding-bottom: 2%;
 }
 
 .btnCommander {
