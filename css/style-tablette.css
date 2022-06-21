@@ -23,7 +23,6 @@ body {
 }
 
 .choix {
-    width: auto;
     height: 100%;
     padding: 0 0.5rem;
     margin: 0 0.2rem 1rem 0.2rem;
@@ -36,12 +35,13 @@ body {
 
 .btnchoix {
     margin: 0 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .numero {
     position: relative;
-    left: 1%;
+    width: 4rem;
+    left: 2%;
     margin-top: 0;
 }
 

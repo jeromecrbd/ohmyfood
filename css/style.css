@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -65,6 +66,7 @@ a:link {
 }
 
 .fonction {
+    max-width: 1280px;
     margin-left: 8%;
     margin-bottom: 8%;
 }
@@ -84,12 +86,14 @@ a:link {
 
 .choix {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 0.7rem;
     border-radius: 20px;
     background-color: #f2f2f2;
-    width: 85%;
+    width: 90%;
     height: 3.8rem;
-    padding-left: 8%;
+    cursor: pointer;
 }
 
 .choix:hover {
@@ -109,7 +113,6 @@ a:link {
 
 .logo {
     color: #908686;
-    padding-top: 7%;
     font-size: 1.15rem;
 }
 
