@@ -12,6 +12,10 @@ a:link {
     text-decoration: none;
 }
 
+/*
+p, h4{
+    margin: 0;
+} */
 /* accueil */
 .coeur:hover {
     color: #8725e1;
@@ -103,7 +107,7 @@ a:link {
 .btnchoix {
     margin-top: 1.2rem;
     margin-left: 1.5rem;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -199,7 +203,8 @@ img.foot {
     justify-content: center;
     margin: 1rem;
 }
-.ohmyfood{
+
+.ohmyfood {
     width: 50%;
     margin: 1rem auto;
 }
@@ -224,9 +229,11 @@ img.foot {
     position: relative;
     bottom: 60px;
 }
-.sous_menu{
+
+.sous_menu {
     display: grid;
 }
+
 .en-tete {
     padding: 1rem 2rem 0 1rem;
     display: flex;
@@ -235,9 +242,11 @@ img.foot {
     font-family: 'Shrikhand', cursive;
     font-weight: bold;
 }
-.appelation{
+
+.appelation {
     font-size: 1.5rem;
 }
+
 .heart {
     font-size: 1.6rem;
 }
@@ -268,45 +277,32 @@ h1 {
 .objet_article {
     margin: 0;
 }
-/*
+
 .objet_menu {
-    background-color: #fff;
-    padding: 0.2rem;
-    display: flex;
-    border-radius: 0.75rem;
-    margin: 1rem 0;
-    overflow: hidden;
-    cursor: pointer;
-}
-*/
-.objet{
     background-color: #fff;
     padding: 1rem;
     display: flex;
     border-radius: 0.75rem;
     margin: 1rem 0;
-    box-shadow: .25rem .25rem 1remrgba(0,0,0,.1);
     overflow: hidden;
     cursor: pointer;
-    animation: itemAppear .6s;
-    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-    animation-fill-mode: both;
-    transform: scale(0);
-    max-width: 100%;
 }
+
 .objet_platdescription {
     flex: 1;
 }
 
 .objet_plat {
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding-left: 0.5rem;
+    margin: 0;
 }
 
 .objet_description {
-    padding-left: 0.5rem;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
+
 .objet_platdescription,
 .objet_plat {
     white-space: nowrap;
@@ -319,7 +315,6 @@ h1 {
     justify-content: flex-end;
     align-items: flex-end;
     padding-left: 0.5rem;
-    padding-bottom: 0.9rem;
     font-weight: bold;
 }
 
