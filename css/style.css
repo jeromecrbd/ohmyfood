@@ -393,7 +393,7 @@ h1 {
     animation: spin 3s linear;
     position: absolute;
     left: 35%;
-    top: 50%;
+    top: 10%;
     z-index: 1;
     margin: -76px 0 0 -54px;
     animation-duration: 3000ms;

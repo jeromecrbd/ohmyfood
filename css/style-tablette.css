@@ -3,7 +3,8 @@ body {
     width: auto;
 }
 
-.food, .ohmyfood{
+.food,
+.ohmyfood {
     width: 40%;
 }
 
@@ -51,7 +52,8 @@ span {
 
 .fonction {
     display: flex;
-    margin: auto;;
+    margin: auto;
+    ;
 }
 
 .famille {
@@ -95,9 +97,11 @@ span {
     border-radius: 0 0;
     background-color: #fff;
 }
-.appelation{
+
+.appelation {
     font-size: 1.8rem;
 }
+
 .entree,
 .repas,
 .dessert {
@@ -118,10 +122,13 @@ h1 {
     width: 100%;
 }
 
+.objet_menu {
+    margin: 1rem 1rem;
+}
+
 .objet_plat {
     border-bottom: none;
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1rem;
 }
 
 .btnCommander {
