@@ -61,8 +61,16 @@ p, h4{
     padding: 0.75rem 1.5rem;
     font-size: 1.1rem;
     color: #fff;
+    background-color: #686868;
     background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
     cursor: pointer;
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+}
+
+.btnExplorer {
+    background-color: #fff;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
 }
 
 .famille {
@@ -86,6 +94,7 @@ p, h4{
     background-color: #9356dc;
     text-align: center;
     color: #fff;
+    z-index: 1;
 }
 
 .choix {
@@ -102,6 +111,7 @@ p, h4{
 
 .choix:hover {
     background-color: #eae4f3;
+    transform: scale(1.05);
 }
 
 .btnchoix {
@@ -147,6 +157,10 @@ p, h4{
     width: 95%;
     background-color: #fff;
     margin: 2%;
+}
+
+.partie1:hover {
+    transform: scale(1.05);
 }
 
 .resto {
@@ -278,6 +292,10 @@ h1 {
     margin: 0;
 }
 
+.objet_article:hover {
+    transform: scale(1.05);
+}
+
 .objet_menu {
     background-color: #fff;
     padding: 1rem;
@@ -348,8 +366,16 @@ h1 {
     margin: 3rem 7rem;
     font-size: 1.1rem;
     color: #fff;
+    background-color: #686868;
     background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
     cursor: pointer;
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+}
+
+.btnCommander:hover {
+    background-color: #fff;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
 }
 
 .page {
