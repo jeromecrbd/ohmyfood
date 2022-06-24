@@ -85,8 +85,10 @@ span {
 
 /* fin accueil*/
 .rst {
+    width: 96%;
     border-radius: 3rem;
     height: 22rem;
+    margin-left: 1rem;
 }
 
 .Menu1,
@@ -98,6 +100,10 @@ span {
     background-color: #fff;
 }
 
+.en-tete {
+    justify-content: space-around;
+}
+
 .appelation {
     font-size: 1.8rem;
 }
@@ -105,10 +111,12 @@ span {
 .entree,
 .repas,
 .dessert {
+    width: 90%;
     display: block;
     background-color: #f6f6f6;
-    padding-bottom: 2%;
-    margin-bottom: 4%;
+    padding-bottom: 0.8rem;
+    margin: 1rem 1.5rem;
+    border-radius: 3rem;
 }
 
 h1 {
@@ -148,5 +156,5 @@ h1 {
     width: 250px;
     height: 250px;
     left: 40%;
-    top: 35%;
+    top: 15%;
 }

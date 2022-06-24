@@ -3,7 +3,8 @@ body {
     width: auto;
 }
 
-.food, .ohmyfood {
+.food,
+.ohmyfood {
     width: 30%;
 }
 
@@ -93,9 +94,10 @@ img.foot {
 }
 
 /* fin accueil*/
-.block1{
+.block1 {
     margin: 1rem 6rem;
 }
+
 .rst {
     display: block;
     margin: auto;
@@ -129,14 +131,17 @@ h1 {
 .en-tete {
     justify-content: space-around;
 }
-.appelation{
+
+.appelation {
     font-size: 1.8rem;
 }
-.sous_menu{
-    grid-template-columns: repeat(3,1fr);
+
+.sous_menu {
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 1rem;
     margin: 0 5rem;
 }
+
 .sousmenu {
     text-align: center;
     font-size: 1.5rem;
@@ -162,8 +167,8 @@ h1 {
 }
 
 .loader {
-    width: 230px;
-    height: 230px;
+    width: 255px;
+    height: 255px;
     left: 45%;
     top: 25%;
 }

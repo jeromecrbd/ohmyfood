@@ -12,10 +12,6 @@ a:link {
     text-decoration: none;
 }
 
-/*
-p, h4{
-    margin: 0;
-} */
 /* accueil */
 .coeur:hover {
     color: #8725e1;
@@ -393,7 +389,7 @@ h1 {
     animation: spin 3s linear;
     position: absolute;
     left: 35%;
-    top: 10%;
+    top: 45%;
     z-index: 1;
     margin: -76px 0 0 -54px;
     animation-duration: 3000ms;
