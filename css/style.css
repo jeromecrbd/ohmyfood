@@ -161,10 +161,22 @@ a:link {
     object-fit: cover;
 }
 
+.localnom{
+    flex: 1;
+}
 .nom {
-    line-height: 8px;
-    padding-bottom: 2%;
-    padding-left: 4%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.nomresto{
+    margin: 0 0 0.25rem;
+}
+
+.nomville{
+    margin: 0;
 }
 
 .animationcoeur {
@@ -184,9 +196,7 @@ a:link {
 }
 
 .coeur {
-    padding-right: 1rem;
     font-size: 26px;
-    float: right;
 }
 
 footer {
