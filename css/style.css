@@ -13,9 +13,6 @@ a:link {
 }
 
 /* accueil */
-.coeur:hover {
-    color: #8725e1;
-}
 
 .food {
     width: 50%;
@@ -254,10 +251,6 @@ img.foot {
 
 .appelation {
     font-size: 1.5rem;
-}
-
-.heart {
-    font-size: 1.6rem;
 }
 
 
