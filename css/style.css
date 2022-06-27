@@ -13,7 +13,6 @@ a:link {
 }
 
 /* accueil */
-
 .food {
     width: 50%;
     display: block;
@@ -168,8 +167,24 @@ a:link {
     padding-left: 4%;
 }
 
+.animationcoeur {
+    transition-delay: 0.01s;
+    animation-fill-mode: both;
+}
+
+.animationcoeur:hover {
+    background: linear-gradient(180deg, #9356DC, #FF79DA);
+    font-weight: bolder;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation: coeur 1s;
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .coeur {
-    padding-right: 5%;
+    padding-right: 1rem;
     font-size: 26px;
     float: right;
 }
@@ -456,3 +471,18 @@ h1 {
         opacity: 1;
     }
 }
+
+@keyframes coeur {
+    0% {
+      opacity: 0;
+      animation-timing-function: linear;
+    }
+    50% {
+      opacity: 0.5;
+      animation-timing-function: linear;
+    }
+    100% {
+      opacity: 1;
+      animation-timing-function: linear;
+    }
+  }
