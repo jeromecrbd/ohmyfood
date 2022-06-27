@@ -70,7 +70,7 @@ a:link {
 }
 
 .famille {
-    margin-left: 1.5rem;
+    margin: 1rem 1.5rem;
 }
 
 .fonction {
@@ -107,7 +107,6 @@ a:link {
 
 .choix:hover {
     background-color: #eae4f3;
-    transform: scale(1.05);
 }
 
 .btnchoix {
@@ -147,16 +146,16 @@ a:link {
     padding-block-end: 5%;
 }
 
+.element {
+    display: grid;
+}
+
 .partie1 {
     border-radius: 15px;
     box-shadow: 3px 5px 0px 0px #e4e2e2;
     width: 95%;
     background-color: #fff;
     margin: 2%;
-}
-
-.partie1:hover {
-    transform: scale(1.05);
 }
 
 .resto {
