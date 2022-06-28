@@ -54,7 +54,7 @@ a:link {
     font-size: 1.1rem;
     color: #fff;
     background-color: #686868;
-    background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
+    background-image: linear-gradient(0deg,#7855b8 0%, #ea4fdd 100%);
     cursor: pointer;
     transition-duration: .25s;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
@@ -204,10 +204,8 @@ footer {
 }
 
 .fin {
-    padding-left: 5%;
-    padding-top: 5%;
-    margin-block-end: 15%;
-    padding-bottom: 5%;
+    padding: 1rem;
+    margin: 0 0 4rem 0;
 }
 
 .fin h3 {
@@ -258,7 +256,7 @@ img.foot {
     padding-top: 1%;
     border-radius: 50px 50px 0 0;
     position: relative;
-    bottom: 60px;
+    margin-top: -4rem;
 }
 
 .sous_menu {
@@ -380,7 +378,7 @@ h1 {
     font-size: 1.1rem;
     color: #fff;
     background-color: #686868;
-    background-image: linear-gradient(0deg, #7855b8, #ea4fdd);
+    background-image: linear-gradient(0deg,#7855b8 0%, #ea4fdd 100%);
     cursor: pointer;
     transition-duration: .25s;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
@@ -389,12 +387,6 @@ h1 {
 .btnCommander:hover {
     background-color: #fff;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
-}
-
-.page {
-    position: relative;
-    bottom: 60px;
-    margin-block-end: -15%;
 }
 
 .loader {
