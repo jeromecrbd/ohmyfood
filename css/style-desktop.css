@@ -157,6 +157,10 @@ h1 {
     width: 100%;
 }
 
+.objet_article:hover {
+    transform: scale(1.02);
+}
+
 .objet_plat {
     border-bottom: none;
     font-size: 1rem;

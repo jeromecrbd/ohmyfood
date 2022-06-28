@@ -39,7 +39,7 @@ body {
 
 .btnchoix {
     margin: 0 0.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .numero {
@@ -52,8 +52,7 @@ body {
 
 .fonction {
     display: flex;
-    margin: auto;
-    ;
+    margin: 0 0.6rem;
 }
 
 .famille {
@@ -138,6 +137,10 @@ h1 {
     text-transform: uppercase;
     border-bottom: 4px solid #99e2d0;
     width: 100%;
+}
+
+.objet_article:hover {
+    transform: scale(1.05);
 }
 
 .objet_menu {

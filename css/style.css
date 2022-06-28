@@ -303,10 +303,6 @@ h1 {
     margin: 0;
 }
 
-.objet_article:hover {
-    transform: scale(1.05);
-}
-
 .objet_menu {
     background-color: #fff;
     padding: 1rem;
