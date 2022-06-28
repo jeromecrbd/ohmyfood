@@ -98,7 +98,7 @@ img.foot {
 }
 
 .fin {
-    margin-block-end: 4%;
+    margin-block-end: 1rem;
 }
 
 /* fin accueil*/
@@ -161,10 +161,6 @@ h1 {
     border-bottom: none;
     font-size: 1rem;
     text-align: center;
-}
-
-.page {
-    position: initial;
 }
 
 .loader {

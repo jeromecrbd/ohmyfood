@@ -49,10 +49,6 @@ body {
     margin-top: 0;
 }
 
-span {
-    font-size: 1.2em;
-    margin-left: 18px;
-}
 
 .fonction {
     display: flex;
@@ -88,7 +84,7 @@ span {
 }
 
 .fin {
-    margin-block-end: 34rem;
+    margin: 0 0 36rem 0;
 }
 
 /* fin accueil*/
@@ -151,11 +147,6 @@ h1 {
 .objet_plat {
     border-bottom: none;
     font-size: 1rem;
-}
-
-.page {
-    position: initial;
-    margin-block-end: 0;
 }
 
 .loader {
