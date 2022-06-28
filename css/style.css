@@ -54,7 +54,7 @@ a:link {
     font-size: 1.1rem;
     color: #fff;
     background-color: #686868;
-    background-image: linear-gradient(0deg,#7855b8 0%, #ea4fdd 100%);
+    background-image: linear-gradient(0deg, #7855b8 0%, #ea4fdd 100%);
     cursor: pointer;
     transition-duration: .25s;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
@@ -161,9 +161,10 @@ a:link {
     object-fit: cover;
 }
 
-.localnom{
+.localnom {
     flex: 1;
 }
+
 .nom {
     display: flex;
     align-items: center;
@@ -171,11 +172,11 @@ a:link {
     position: relative;
 }
 
-.nomresto{
+.nomresto {
     margin: 0 0 0.25rem;
 }
 
-.nomville{
+.nomville {
     margin: 0;
 }
 
@@ -369,11 +370,12 @@ h1 {
     color: #99e2d0;
 }
 
-.commande{
-display: flex;
-justify-content: center;
-padding: 3rem 0;
+.commande {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
 }
+
 .btnCommander {
     border: none;
     border-radius: 100px;
@@ -381,7 +383,7 @@ padding: 3rem 0;
     font-size: 1.1rem;
     color: #fff;
     background-color: #686868;
-    background-image: linear-gradient(0deg,#7855b8 0%, #ea4fdd 100%);
+    background-image: linear-gradient(0deg, #7855b8 0%, #ea4fdd 100%);
     cursor: pointer;
     transition-duration: .25s;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
@@ -479,15 +481,17 @@ padding: 3rem 0;
 
 @keyframes coeur {
     0% {
-      opacity: 0;
-      animation-timing-function: linear;
+        opacity: 0;
+        animation-timing-function: linear;
     }
+
     50% {
-      opacity: 0.5;
-      animation-timing-function: linear;
+        opacity: 0.5;
+        animation-timing-function: linear;
     }
+
     100% {
-      opacity: 1;
-      animation-timing-function: linear;
+        opacity: 1;
+        animation-timing-function: linear;
     }
-  }
+}
