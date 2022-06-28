@@ -293,7 +293,6 @@ h1 {
 }
 
 .sousmenu {
-    text-transform: uppercase;
     border-bottom: 4px solid #99e2d0;
     padding-bottom: 1%;
     width: 3rem;
@@ -370,11 +369,15 @@ h1 {
     color: #99e2d0;
 }
 
+.commande{
+display: flex;
+justify-content: center;
+padding: 3rem 0;
+}
 .btnCommander {
     border: none;
     border-radius: 100px;
     padding: 0.75rem 1.5rem;
-    margin: 3rem 7rem;
     font-size: 1.1rem;
     color: #fff;
     background-color: #686868;

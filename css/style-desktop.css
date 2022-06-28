@@ -103,7 +103,7 @@ img.foot {
 
 /* fin accueil*/
 .block1 {
-    margin: 1rem 6rem;
+    margin: 3rem 6rem;
 }
 
 .rst {
@@ -119,6 +119,7 @@ img.foot {
 .Menu3,
 .Menu4 {
     position: initial;
+    margin-top: -1rem;
     border-radius: 0 0;
     background-color: #fff;
 }
@@ -160,14 +161,6 @@ h1 {
     border-bottom: none;
     font-size: 1rem;
     text-align: center;
-}
-
-.btnCommander {
-    width: 20%;
-    font-size: 1.4rem;
-    margin-left: 40%;
-    margin-bottom: 4%;
-    margin-top: 4%;
 }
 
 .page {

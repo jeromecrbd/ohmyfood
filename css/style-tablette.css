@@ -92,6 +92,9 @@ span {
 }
 
 /* fin accueil*/
+.block1 {
+    margin: 2rem;
+}
 .rst {
     width: 96%;
     border-radius: 3rem;
@@ -104,6 +107,7 @@ span {
 .Menu3,
 .Menu4 {
     position: initial;
+    margin-top: -1rem;
     border-radius: 0 0;
     background-color: #fff;
 }
@@ -134,7 +138,8 @@ h1 {
 .sousmenu {
     text-align: center;
     font-size: 1.5rem;
-    border-bottom: 3px solid #c931c9;
+    text-transform: uppercase;
+    border-bottom: 4px solid #99e2d0;
     width: 100%;
 }
 
@@ -145,14 +150,6 @@ h1 {
 .objet_plat {
     border-bottom: none;
     font-size: 1rem;
-}
-
-.btnCommander {
-    width: 40%;
-    font-size: 1.4rem;
-    margin-left: 30%;
-    margin-bottom: 3%;
-    margin-top: 3%;
 }
 
 .page {
