@@ -13,11 +13,14 @@ a:link {
 }
 
 /* accueil */
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
 .food {
-    width: 50%;
-    display: block;
-    margin: auto;
-    margin-top: 2rem;
+    width: 60%;
 }
 
 .locate {
@@ -231,12 +234,12 @@ img.foot {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    margin: 0 1rem;
 }
 
 .ohmyfood {
-    width: 50%;
-    margin: 1rem auto;
+    width: 60%;
+    margin: auto;
 }
 
 .retour {
