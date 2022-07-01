@@ -82,8 +82,24 @@ body {
     transform: scale(1.05);
 }
 
+footer{
+    text-align: center;
+}
+
+.couvert {
+    padding: 0 1rem 0 0;
+}
+
+.main {
+    padding: 0 0.5rem 0 0;
+}
+
 .fin {
     margin: 0 0 36rem 0;
+}
+
+.fin h3{
+    margin: 0 0 1rem 0;
 }
 
 /* fin accueil*/
@@ -129,6 +145,7 @@ body {
 
 h1 {
     font-size: 2rem;
+    margin: 1rem 0;
 }
 
 .sousmenu {

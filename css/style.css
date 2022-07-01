@@ -16,7 +16,9 @@ a:link {
 
 header {
     text-align: center;
-    padding: 2rem 1rem;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    position: relative;
+    padding: 2rem 1rem 1rem;
 }
 
 .food {
@@ -214,7 +216,7 @@ footer {
 
 .fin h3 {
     color: #fff;
-    margin-left: 4%;
+    margin-left: 0.7rem;
 }
 
 img.foot {
@@ -280,12 +282,11 @@ img.foot {
     font-size: 1.5rem;
 }
 
-
 h1 {
     font-family: 'Shrikhand', cursive;
     font-weight: bold;
     color: #fff;
-    margin-left: 3%;
+    margin-left: 0.5rem;
 }
 
 .entree,

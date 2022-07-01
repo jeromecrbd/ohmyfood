@@ -86,15 +86,15 @@ img.foot {
 }
 
 .couvert {
-    padding-right: 1.5%;
+    padding: 0 1rem 0 0;
 }
 
 .main {
-    padding-right: 1%;
+    padding: 0 0.5rem 0 0;
 }
 
 .fin h3 {
-    margin-left: 3%;
+    margin: 0 0 1rem 1rem;
 }
 
 .fin {
@@ -135,6 +135,7 @@ img.foot {
 
 h1 {
     font-size: 2rem;
+    margin: 1rem 0 1rem 1rem;
 }
 
 .en-tete {
