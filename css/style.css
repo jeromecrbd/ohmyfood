@@ -202,7 +202,24 @@ header {
 }
 
 .coeur {
-    font-size: 26px;
+    font-size: 1.8rem;
+}
+
+@keyframes coeur {
+    0% {
+        opacity: 0;
+        animation-timing-function: linear;
+    }
+
+    50% {
+        opacity: 0.5;
+        animation-timing-function: linear;
+    }
+
+    100% {
+        opacity: 1;
+        animation-timing-function: linear;
+    }
 }
 
 footer {
@@ -284,6 +301,7 @@ img.foot {
 
 h1 {
     font-family: 'Shrikhand', cursive;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #fff;
     margin-left: 0.5rem;
@@ -370,6 +388,85 @@ h1 {
     color: #99e2d0;
 }
 
+.div_check {
+    height: 90px;
+    width: 80px;
+    opacity: 0;
+    background-color: #99E2D0;
+    margin-left: 25px;
+    margin-right: -70px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease-in-out;
+}
+
+
+.check_icons {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transform: rotate(0deg);
+    transition: all 0.7s ease-in-out;
+}
+
+.apparition {
+    animation: itemAppear 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transform: scale(0);
+}
+
+@keyframes itemAppear {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ElementsEntrées {
+    background-color: #fff;
+    padding: 16px;
+    width: 80%;
+    display: flex;
+    border-radius: 12px;
+    margin: 16px 0px;
+    box-shadow: 4px 4px 16px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    animation: itemAppear 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transform: scale(0);
+}
+
+@keyframes itemAppear {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ElementsEntrées:hover :nth-child(3) {
+    opacity: 1;
+    margin-right: 0px;
+}
+
+.ElementsEntrées:hover .check_icons {
+    opacity: 1;
+    transform: rotate(-360deg);
+}
+
 .commande {
     display: flex;
     justify-content: center;
@@ -440,6 +537,7 @@ h1 {
         transform: rotate(1080deg);
         opacity: 0;
         display: none;
+        z-index: -1;
     }
 
 }
@@ -479,19 +577,3 @@ h1 {
     }
 }
 
-@keyframes coeur {
-    0% {
-        opacity: 0;
-        animation-timing-function: linear;
-    }
-
-    50% {
-        opacity: 0.5;
-        animation-timing-function: linear;
-    }
-
-    100% {
-        opacity: 1;
-        animation-timing-function: linear;
-    }
-}
