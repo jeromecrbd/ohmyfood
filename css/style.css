@@ -316,6 +316,7 @@ h1 {
 }
 
 .sousmenu {
+    text-transform: uppercase;
     border-bottom: 4px solid #99e2d0;
     padding-bottom: 1%;
     width: 3rem;
@@ -324,8 +325,6 @@ h1 {
 .objet_article {
     margin: 0;
 }
-
-
 
 .objet_platdescription {
     flex: 1;
@@ -377,13 +376,6 @@ h1 {
     opacity: 0;
     transform: rotate(0deg);
     transition: all 0.7s ease-in-out;
-}
-
-.apparition {
-    animation: itemAppear 1s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transform: scale(0);
 }
 
 .objet_apparition {
