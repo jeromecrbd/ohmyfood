@@ -81,7 +81,7 @@ body {
     transform: scale(1.05);
 }
 
-footer{
+footer {
     text-align: center;
 }
 
@@ -97,7 +97,7 @@ footer{
     margin: 0 0 36rem 0;
 }
 
-.fin h3{
+.fin h3 {
     margin: 0 0 1rem 0;
 }
 
@@ -156,7 +156,7 @@ h1 {
 }
 
 .objet_article:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .objet_menu {
