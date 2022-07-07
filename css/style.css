@@ -195,7 +195,7 @@ header {
     font-weight: bolder;
     animation-duration: 3s;
     animation-timing-function: linear;
-    animation: coeur 1s;
+    animation: coeur 0.08s;
     background-clip: padding-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
