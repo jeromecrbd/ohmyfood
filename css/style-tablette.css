@@ -16,6 +16,11 @@ body {
     font-size: 1.4rem;
     padding-block-start: 2%;
     padding-block-end: 2%;
+    text-align: center;
+}
+
+.mark {
+    margin-right: 3rem;
 }
 
 .explore {

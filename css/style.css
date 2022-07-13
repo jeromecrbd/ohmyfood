@@ -28,14 +28,21 @@ header {
 .locate {
     background-color: #f3f3f3;
     padding: 1.25rem 1rem;
-    text-align: center;
+    text-align: end;
     justify-content: center;
     font-size: 1.2rem;
 }
 
-.position {
-    margin-left: 1rem;
+.btnrecherche{
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 1.2rem;
+    font-family: "roboto", sans-serif;
     font-weight: bold;
+}
+
+.mark{
+    margin-right: 1rem;
 }
 
 .explore {

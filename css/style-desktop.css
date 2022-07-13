@@ -13,6 +13,7 @@ body {
 }
 
 .locate {
+    text-align: center;
     font-size: 1.8rem;
     padding-block-start: 1%;
     padding-block-end: 1%;
