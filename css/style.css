@@ -26,6 +26,7 @@ header {
 }
 
 .locate {
+    display: flex;
     background-color: #f3f3f3;
     padding: 1.25rem 1rem;
     text-align: center;
