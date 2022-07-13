@@ -28,7 +28,7 @@ header {
 .locate {
     background-color: #f3f3f3;
     padding: 1.25rem 1rem;
-    text-align: end;
+    text-align: center;
     justify-content: center;
     font-size: 1.2rem;
 }
@@ -42,7 +42,7 @@ header {
 }
 
 .mark{
-    margin-right: 1rem;
+    margin: 0 1rem 0 4rem;
 }
 
 .explore {
